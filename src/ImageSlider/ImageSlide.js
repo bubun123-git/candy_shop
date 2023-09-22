@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import { Carousel } from 'antd';
-import { WarningFilled } from '@ant-design/icons';
-
 import mealsImage from '../Assets/pexels-alimurat-üral-14836741.jpg';
 import mealimage2 from '../Assets/pexels-elina-fairytale-3811013.jpg';
 import mealimage3 from '../Assets/pexels-kader-d-kahraman-7552831.jpg';
