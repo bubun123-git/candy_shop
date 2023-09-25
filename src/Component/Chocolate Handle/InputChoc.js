@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Chocolate Handle/InputChoc.css';
+import DisplayChoc from './DisplayChoc';
 
 function InputChoc() {
     const [candyName, setCandyName] = useState('');
@@ -17,7 +18,7 @@ function InputChoc() {
 
         // Replace the URL with the correct API endpoint
         const id = Math.floor(Math.random())
-        fetch(`https://crudcrud.com/api/ed056c13a4d14ed7a10f4b0ef12a741b/${id}`, {
+        fetch(`https://crudcrud.com/api/ee3bf2207b2a4744940acc1fce44de8f/${id}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -72,8 +73,10 @@ function InputChoc() {
                 <button className='button' type="button" onClick={handleAddClick}>
                     Add
                 </button>
-            </form>
+            </form><br/><br/>
+            <DisplayChoc items={itemlist}  />
         </div>
+        
     );
 }
 

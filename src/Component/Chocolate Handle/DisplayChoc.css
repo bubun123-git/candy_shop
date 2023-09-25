@@ -1,0 +1,52 @@
+/* DisplayChoc.css */
+
+/* Container styles */
+.display-choc-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* List styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* List item styles */
+  li {
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Candy Name styles */
+  p.CandyName {
+    font-weight: bold;
+  }
+  
+  /* Price styles */
+  p.Price {
+    font-weight: bold;
+    color: #e91e63; /* You can choose your desired color */
+  }
+  
