@@ -49,4 +49,15 @@
     font-weight: bold;
     color: #e91e63; /* You can choose your desired color */
   }
-  
+  /* DisplayChoc.css */
+/* Add your custom button styles here */
+/* DisplayChoc.css */
+/* Updated button styles to make them smaller */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px; /* Adjust padding to make the button smaller */
+  margin-right: 10px;
+  cursor: pointer;
+}
