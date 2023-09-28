@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headers {
+  border: 1px solid rgb(237, 237, 241);
+  display: flex;
+  justify-content: space-between; /* Change to space-between */
+  padding: 10px;
+  background-color: rgb(198, 238, 183);
+  color: rgb(111, 172, 226);
+  font-weight: bold;
+  align-items: left;
+  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.headers h1 {
+  margin: 0; /* To remove default margin on the h1 element */
+}
