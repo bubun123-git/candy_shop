@@ -1,12 +1,16 @@
 import React from 'react'
 
 import classes from '../Layout/Header.module.css'
+import HeaderButton from './HeaderButton'
 
 function Headers() {
     return (
         <div className={classes.headers}>
             <div>
-                <h1 style={{ textAlign: 'left', width: '100%' }}>Candy Shop</h1>
+                <p className={classes.headerText}>Candy Shop</p>
+            </div>
+            <div>
+                <HeaderButton/>
             </div>
 
         </div>

@@ -70,7 +70,7 @@ function InputChoc() {
                         onChange={(e) => setPrice(e.target.value)}
                     />
                 </div>
-                <button className='button' type="button" onClick={handleAddClick}>
+                <button type="button" class="btn btn-success" onClick={handleAddClick}>
                     Add
                 </button>
             </form><br/><br/>

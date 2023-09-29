@@ -1,22 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
+/* Header.module.css */
 .headers {
-  border: 1px solid rgb(237, 237, 241);
+  border: 1px solid blue;
   display: flex;
-  justify-content: space-between; /* Change to space-between */
+  justify-content: space-between; /* To push the h1 to the left */
   padding: 10px;
-  background-color: rgb(198, 238, 183);
-  color: rgb(111, 172, 226);
+  background-color: rgb(130, 156, 240);
+  color: aliceblue;
   font-weight: bold;
-  align-items: left;
+  align-items: center;
   position: -webkit-sticky; /* Safari */
-  position: -webkit-sticky;
+  position: sticky;
   top: 0;
 }
 
-.headers h1 {
-  margin: 0; /* To remove default margin on the h1 element */
+.headerText {
+  margin: 0; /* Remove default margin */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Make sure it takes up the full width */
 }

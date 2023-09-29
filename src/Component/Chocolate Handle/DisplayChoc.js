@@ -12,9 +12,9 @@ function DisplayChoc({ items = [] }) {
                         <p className="CandyName">Candy Name: {item.Candyname}</p>
                         <p>Description: {item.Description}</p>
                         <p className="Price">Price: {item.Price}</p>
-                        <button className="button">BUY1</button>
-                        <button className="button">BUY2</button>
-                        <button className="button">BUY3</button>
+                        <button type="button" class="btn btn-success">BUY1</button>
+                        <button type="button" class="btn btn-success">BUY2</button>
+                        <button type="button" class="btn btn-success">BUY3</button>
                     </li>
 
                 ))}
