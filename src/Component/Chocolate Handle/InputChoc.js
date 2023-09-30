@@ -18,7 +18,7 @@ function InputChoc() {
 
         // Replace the URL with the correct API endpoint
         const id = Math.floor(Math.random())
-        fetch(`https://crudcrud.com/api/ec1b021792554a4397ac5a098873e806/${id}`, {
+        fetch(`https://crudcrud.com/api/2d12804be04441d18df72e87a27d68c6/${id}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
